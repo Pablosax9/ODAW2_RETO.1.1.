@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6: Etiquetas de Agrupación</title>
+    <style>
+        /* Estilos globales */
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para el div que agrupa toda la página y ocupa toda la pantalla */
+        #contenedor {
+            background-color: #f4f4f4;
+            min-height: 100vh; 
+            display: flex;
+            flex-direction: column; /* Para que el footer quede al final */
+        }
+
+        /* Estilo para las secciones */
+        section {
+            background-color: #e1e1e1;
+            padding: 20px;
+            flex-grow: 1; 
+        }
+
+        /* Estilo para el artículo */
+        article {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+
+        /* Estilo para el pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Div que agrupa toda la página -->
+    <div id="contenedor">
+        <!-- Sección principal de la página -->
+        <section>
+            <h1>Bienvenido a mi sitio web</h1>
+            <p>Párrafo</p>
+
+            <!-- Artículo -->
+            <article>
+                <h2>Artículo: Pablo</h2>
+                <p>Hola soy Pablo y soy el creador de esta página.</p>
+            </article>
+
+        </section>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </div>
+</body>
+</html>
